@@ -1,5 +1,5 @@
 import pyautogui
-
+import time
 
 
 len = 1680 / 2
@@ -10,3 +10,5 @@ pyautogui.moveTo(-1712, 361)
 pyautogui.click()
 pyautogui.click()
 pyautogui.hotkey('command', 'r')
+time.sleep(2)
+pyautogui.hotkey('command', 'ctrl', 'f')
